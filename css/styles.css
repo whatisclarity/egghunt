@@ -8,7 +8,7 @@ html, body {
   height: 100%;
 }
 body {
-  background: #6d5b42 url(/img/dirt.jpg);
+  background: #6d5b42 url(../img/dirt.jpg);
   background-size: 10% auto;
   overflow: hidden;
 }
@@ -27,14 +27,14 @@ body {
   height: 70px;
   position: absolute;
   margin: -35px 0 0 -35px;
-  background: url(/img/1.png) no-repeat center;
+  background: url(../img/1.png) no-repeat center;
   background-size: contain;
   z-index: 1;
   -webkit-filter: drop-shadow( -3px -3px 3px rgba(0,0,0,.5));
   filter: drop-shadow( -3px -3px 3px rgba(0,0,0,.5));
 }
 .tile {
-  background: url(/img/grass.jpg);
+  background: url(../img/grass.jpg);
   background-size: cover;
   width: 10%;
   height: 25%;
@@ -60,7 +60,7 @@ body {
   /* background: tan; */
   z-index: 10;
   /* border-radius: 100em; */
-  background: url(/img/basket.png) no-repeat;
+  background: url(../img/basket.png) no-repeat;
   background-size: contain;
 }
 
