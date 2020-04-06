@@ -38,7 +38,7 @@ function countEggs() {
     alert("Halfway there!");
   }
   if (eggsCount === 12) {
-    alert("Great Job! Want to try again?");
+    if(!alert("Great Job! Want to try again?")){window.location.reload();}
     document.getElementById('hide').style.display = 'block';
   }
 

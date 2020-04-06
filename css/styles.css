@@ -17,6 +17,8 @@ body {
   position: relative;
   margin: 30px;
   height: calc(100% - 60px);
+  width: calc(100% - 250px);
+  margin-left: 220px;
 }
 .egg {
   display: block;
@@ -32,6 +34,17 @@ body {
   z-index: 1;
   -webkit-filter: drop-shadow( -3px -3px 3px rgba(0,0,0,.5));
   filter: drop-shadow( -3px -3px 3px rgba(0,0,0,.5));
+  user-select: none;
+  -webkit-user-drag: none;
+  transition: transform .2s;
+  zoom: 1;
+  cursor: copy;
+}
+.egg:hover {
+  zoom: 1.2;
+}
+.egg:active {
+  zoom: 1.1;
 }
 .tile {
   background: url(../img/grass.jpg);
@@ -43,25 +56,22 @@ body {
   top: 0;
   left: 0;
 }
-
 #buttons {
   background: pink;
   z-index: 20;
   position: absolute;
   padding: 20px;
 }
-
 #basket {
   position: fixed;
   left: 20px;
   bottom: 20px;
   width: 220px;
   height: 220px;
-  /* background: tan; */
   z-index: 10;
-  /* border-radius: 100em; */
   background: url(../img/basket.png) no-repeat;
   background-size: contain;
+  transform: rotate(-20deg);
 }
 
 #inBasket {
