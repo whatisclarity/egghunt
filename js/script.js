@@ -47,3 +47,4 @@ function countEggs() {
 
 // Hide the eggs!
 hideEggs();
+alert('Click around to look for the hidden easter eggs!');
