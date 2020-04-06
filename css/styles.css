@@ -55,6 +55,9 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  user-select: none;
+  -webkit-user-drag: none;
+  cursor: zoom-in;
 }
 #buttons {
   background: pink;
